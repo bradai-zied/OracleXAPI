@@ -8,18 +8,26 @@ While working on oracle Database, sometimes you need a quick access to your data
 
 # Description
 Docker base on python:3.7-alpine
+
 Flask for API
+
 CX_oracle  connector for database connection
+
 
 # Setup
 Build the docker image
 by default the container will not connect to any database
 set Envirement variable as DB_DSN if you have or you must change 
 -DB_IP     :IP of database target
+
 -DB_PORT   :Port (by default oracle use 1521)
+
 -DB_SID    :
+
 -DB_USER   :username fo schema
+
 -DB_PASSWORD:
+
 internal Port of API is 5000 (i'm lazy to change it)
 
 # Features
@@ -43,7 +51,7 @@ PATH          :/oracleapi/TableName/select?col=column1,column2&filter=columnx=0
 Example
 Request:
 ```
-http://127.0.0.1:5000/oracleapi/devinfo/select?col=SROUTINSTANCEID,CDESC&filter=(SROUTINSTANCEID in (101,102))&orderby=SROUTINSTANCEID desc
+127.0.0.1:5000/oracleapi/devinfo/select?col=SROUTINSTANCEID,CDESC&filter=SROUTINSTANCEID < 103&orderby=SROUTINSTANCEID desc
 ```
 Response
 ```
