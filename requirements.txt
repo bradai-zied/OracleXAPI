@@ -1,0 +1,4 @@
+flask
+cx_Oracle
+xmltodict
+configparser
