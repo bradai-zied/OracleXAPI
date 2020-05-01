@@ -36,12 +36,28 @@ internal Port of API is 5000 (i'm lazy to change it)
 * Management of oracle session.
 * Multiple requests handling ( Multithread )
 
-# API paths
-|HTTP TYPE  |API URL          |usage  |
-|-----------|-----------------|-------|
-|GET        |/oracleapi/TableName/select|
-
-
+# API Paths and Usage
+#### Fetch data 
+HTTP Method   : GET
+PATH          :/oracleapi/TableName/select?col=column1,column2&filter=columnx=0
+Example
+Request:
+```
+http://127.0.0.1:5000/oracleapi/devinfo/select?col=SROUTINSTANCEID,CDESC&filter=(SROUTINSTANCEID in (101,102))&orderby=SROUTINSTANCEID desc
+```
+Response
+```
+[
+    {
+        "SROUTINSTANCEID": 102,
+        "CDESC": "Entry 102"
+    },
+    {
+        "SROUTINSTANCEID": 101,
+        "CDESC": "Entry 101"
+    }
+]
+```
 
 
 
