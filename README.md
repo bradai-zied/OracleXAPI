@@ -37,13 +37,10 @@ internal Port of API is 5000 (i'm lazy to change it)
 * Multiple requests handling ( Multithread )
 
 # API paths
-|HTTP TYPE  |API URL          |usage  |Comments|
-|-----------|-----------------|-------
-|GET        |/oracleapi/TableName/select
-|
-|
-|
-|
+|HTTP TYPE  |API URL          |usage  |
+|-----------|-----------------|-------|
+|GET        |/oracleapi/TableName/select|
+
 
 
 
