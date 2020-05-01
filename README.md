@@ -167,7 +167,7 @@ Request:
 http://127.0.0.1:5000/oracleapi/devinfo/details
 ```
 Response:  
-```
+```JSON
 [
     {
         "COLUMN_NAME": "SROUTINSTANCEID",
