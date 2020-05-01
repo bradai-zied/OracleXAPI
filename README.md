@@ -41,7 +41,7 @@ internal Port of API is 5000 (i'm lazy to change it)
 
 # API Paths and Usage
 ## Fetch data  
-**HTTP Method**   : GET  
+**HTTP Method**   : GET   
 **PATH**          :/oracleapi/*TableName*/select?col=*column1*,*column2*&filter=*columnx*=0  
 **DEFAULT**        :If nothing si specified in header, it will fetch teh full table ordered by first column  
 **Example**  
@@ -65,9 +65,9 @@ Response
 
 ## Insert data   
 **HTTP Method**   : POST  
-**PATH**          :/oracleapi/*TableName*/add  
-**BODY**        : JSON FORMAT  
-**DEFAULT**        :Body, data must be nested in json object with name "DATA"  
+**PATH**          :/oracleapi/*TableName*/add   
+**BODY**        : JSON FORMAT    
+**DEFAULT**        :Body, data must be nested in json object with name "DATA"   
 **Example**  
 Request:  
 ```
@@ -98,9 +98,9 @@ Response:
 ```
 ## Delete data:  
 
-**HTTP Method**   : DELETE  
-**PATH**          :/oracleapi/*TableName*/delete?col=*column1*&val=*valueor experssion*  
-**DEFAULT**        :Body, data must be nested in json object with name "DATA"  
+**HTTP Method**   : DELETE   
+**PATH**          :/oracleapi/*TableName*/delete?col=*column1*&val=*valueor experssion*    
+**DEFAULT**        :Body, data must be nested in json object with name "DATA"    
 **Example**  
 Request:  
 ```
@@ -116,12 +116,11 @@ Response:
     ]
 }
 ```
-## Update data 
-
-**HTTP Method**   : PATCH
-**PATH**          :/oracleapi/*TableName*/update
-**DEFAULT**        :Body, must contain 2 object, NEWROWS & OLDROWS, number of element in each group must be the same, first element in OLDROWS will be updated by the first element of NEWROWS
-**Example**
+## Update data  
+**HTTP Method**   : PATCH  
+**PATH**          :/oracleapi/*TableName*/update  
+**DEFAULT**        :Body, must contain 2 object, NEWROWS & OLDROWS, number of element in each group must be the same, first element in OLDROWS will be updated by the first element of NEWROWS  
+**Example**   
 Request:
 ```
 http://127.0.0.1:5000/oracleapi/devinfo/update
