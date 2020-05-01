@@ -1,5 +1,6 @@
 # Oracle API
 <a href="https://ibb.co/gDYZRY4"><img src="https://i.ibb.co/brt5Ktb/img.jpg" alt="img" border="0"></a>
+
 Generating REST APIs for Oracle Databases
 
 # Motivation
@@ -22,7 +23,29 @@ set Envirement variable as DB_DSN if you have or you must change
 internal Port of API is 5000 (i'm lazy to change it)
 
 # Features
-* Generates API for **ANY** Oracle database :stop::fire:
+* Generates API for any Oracle database :pushpin:
+* Description of tables
+* Fetch table with filters
+* Grouping and counting are possible in fetch
+* Sorting
+* Column Filtring
+* Insert one or multiple row in one request
+* Update one or multiple row in one request
+* Delete depend on where clause
+* ORA errors in respond when something goes wrong
+* Management of oracle session.
+* Multiple requests handling ( Multithread )
+
+# API paths
+|HTTP TYPE  |API URL          |usage  |Comments|
+|-----------|-----------------|-------
+|GET        |/oracleapi/TableName/select
+|
+|
+|
+|
+
+
 
 
 
