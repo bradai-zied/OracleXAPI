@@ -7,10 +7,10 @@ Generating REST APIs for Oracle Databases
 While working on oracle Database, sometimes you need a quick access to your data from rest interface, if you wanna test Inonic , angular or ...., here is the solution, you don't need to write your REST API, Oracle API will prepare it in couple of second.
 
 # Description
-Docker base on python:3.7-alpine  
-Flask for API    
-CX_oracle  connector for database connection  
-
+Docker base on   
+python:3.7-alpine  			[![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg)](https://www.python.org/downloads)  
+Flask for API    					[![Flask 1.1.2](https://img.shields.io/badge/Flask-1.1.2-yellow.svg)](https://flask.palletsprojects.com/en/1.1.x/)	  
+CX_oracle  connector for database connection  [![CX_Oracle 5.3](https://img.shields.io/badge/CX__Oracle-5.3-red.svg)](https://cx-oracle.readthedocs.io/en/latest/#)  
 
 # Setup
 Build the docker image  
@@ -127,7 +127,7 @@ http://127.0.0.1:5000/oracleapi/devinfo/update
 Body:  
 ```
 {
-	"NEWROWS":[{
+"NEWROWS":[{
         "SROUTINSTANCEID": 102,
         "CDESC": "Entry 102",
         "ADATE": "2020-01-04 00:00:00"
@@ -136,7 +136,7 @@ Body:
         "CDESC": "entry 101",
         "ADATE": "2020-01-04 00:00:00"
     }], 
-    "OLDROWS":[{
+"OLDROWS":[{
         "SROUTINSTANCEID": 101,
         "CDESC": "Entry 101",
         "ADATE": "2019-01-04 00:00:00"
