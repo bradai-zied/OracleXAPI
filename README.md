@@ -48,7 +48,7 @@ Request:
 http://127.0.0.1:5000/oracleapi/devinfo/select?col=SROUTINSTANCEID,CDESC&filter=SROUTINSTANCEID < 103&orderby=SROUTINSTANCEID desc
 ```
 Response  
-```
+```json
 [
     {
         "SROUTINSTANCEID": 102,
@@ -72,7 +72,7 @@ Request:
 http://127.0.0.1:5000/oracleapi/devinfo/add
 ```
 Body:  
-```
+```json
 {
 	"DATA":[{
         "SROUTINSTANCEID": 102,
@@ -85,7 +85,7 @@ Body:
 }
 ```
 Response:  
-```
+```json
 {
     "Status ": [
         {
@@ -105,7 +105,7 @@ Request:
 http://127.0.0.1:5000/oracleapi/devinfo/delete?col=SROUTINSTANCEID&val=101
 ```
 Response:  
-```
+```json
 {
     "Status ": [
         {
@@ -125,7 +125,7 @@ Request:
 http://127.0.0.1:5000/oracleapi/devinfo/update
 ```
 Body:  
-```
+```json
 {
 "NEWROWS":[{
         "SROUTINSTANCEID": 102,
@@ -148,7 +148,7 @@ Body:
 }
 ```
 Response:  
-```
+```json
 {
     "Status ": [
         {
@@ -167,7 +167,7 @@ Request:
 http://127.0.0.1:5000/oracleapi/devinfo/details
 ```
 Response:  
-```JSON
+```json
 [
     {
         "COLUMN_NAME": "SROUTINSTANCEID",
@@ -190,7 +190,6 @@ Response:
         "NULLABLE": "Y",
         "PK": "NO"
     }
-    ....
 ]
 ```
 
