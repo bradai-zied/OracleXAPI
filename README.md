@@ -4,7 +4,9 @@
 Generating REST APIs for Oracle Databases
 
 # Motivation
-While working on oracle Database, sometimes you need a quick access to your data from rest interface, if you wanna test Inonic , angular or ...., here is the solution, you don't need to write your REST API, Oracle API will prepare it in couple of second.
+In lot of case when we wanna learn new Dev language or test something like Ionic or Angular, we all prefer to quick start and be able to see and test what we are doing, and most of the time we wanna interact with a real data already existing.  
+I found quick API for MYSQL, it is named XMYSQL, and i really love it.
+Now it is my turn to build it for Oracle database.  
 
 # Description
 Docker base on   
