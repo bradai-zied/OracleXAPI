@@ -1,4 +1,4 @@
-# Oracle API
+# Oracle XAPI
 <a href="https://ibb.co/gDYZRY4"><img src="https://i.ibb.co/brt5Ktb/img.jpg" alt="img" border="0"></a>
 
 Generating REST APIs for Oracle Databases
