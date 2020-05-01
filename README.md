@@ -61,7 +61,7 @@ Response
 ]
 ```
 
-## insert data   
+## Insert data   
 **HTTP Method**   : POST  
 **PATH**          :/oracleapi/*TableName*/add  
 **BODY**        : JSON FORMAT  
@@ -192,6 +192,9 @@ Response:
     }
 ]
 ```
+# Comments
+Date time must be in body as  "YYYY-MM-DD HH:MI:SS"
+Date response : Date time must be in body as  "YYYY-MM-DDTHH:MI:SS"
 
 
 
