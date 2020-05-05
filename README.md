@@ -205,9 +205,6 @@ Date response : Date time in body  "YYYY-MM-DDTHH:MI:SS"
 # Contributing  
 Welcome to Contribute, bigger project based on this one will be started soon  
 
-# Credits  
-Big thanks to https://github.com/o1lab  inspire me for the project
-
 
 
 
