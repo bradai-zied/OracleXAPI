@@ -165,7 +165,7 @@ Response:
 ```
 ## Get Table structure   
 **HTTP Method**   : GET    
-**PATH**          :/oracleapi/*TableName*/details
+**PATH**          :/oracleapi/*TableName*/details  
 **DEFAULT**        :  
 **Example**  
 Request:  
